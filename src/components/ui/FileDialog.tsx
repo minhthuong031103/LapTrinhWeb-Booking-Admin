@@ -27,6 +27,7 @@ import { Icons } from '@/assets/Icons';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ImageCus } from '@/components/ui/ImageCus';
 import { postRequest } from '@/lib/fetch';
+import { color } from 'framer-motion';
 
 // FIXME Your proposed upload exceeds the maximum allowed size, this should trigger toast.error too
 type FileWithPreview = FileWithPath & {
@@ -119,7 +120,7 @@ export function FileDialog<TFieldValues extends FieldValues>({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className={className} variant="outline" disabled={disabled}>
+        <Button className={className} disabled={disabled}>
           Tải ảnh lên
           <span className="sr-only">Tải ảnh lên</span>
         </Button>

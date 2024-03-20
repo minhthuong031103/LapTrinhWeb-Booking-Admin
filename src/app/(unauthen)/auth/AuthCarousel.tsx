@@ -16,7 +16,7 @@ function AuthCarousel() {
       >
         <div className="h-screen w-full">
           <Image
-            src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1854&q=80"
+            src="https://wallpapers.com/images/high/empty-hotel-pool-hz69918462ys5c1k.webp"
             alt="Auth background"
             layout="fill"
             objectFit="cover"
@@ -27,19 +27,18 @@ function AuthCarousel() {
           <div className="absolute bottom-20 z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Nền tảng này đã cách mạng hóa cách tôi xử lý các giao
-                dịch bất động sản. Với giao diện liền mạch và các tính năng mạnh
-                mẽ, tôi có thể quản lý tài sản, khách hàng và hợp đồng một cách
-                dễ dàng và chuyên nghiệp chưa từng có.&rdquo;
+                &ldquo;Tôi luôn tin rằng một khách sạn tốt không chỉ là nơi cung
+                cấp giường ngủ, mà còn là nơi tạo ra những trải nghiệm khó
+                quên.&rdquo;
               </p>
-              <footer className="text-sm">Sofia Davis</footer>
+              <footer className="text-sm">Sir Richard Branson</footer>
             </blockquote>
           </div>
           <div className="absolute inset-0 bg-black opacity-10" />
         </div>
         <div>
           <Image
-            src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
+            src="https://wallpapers.com/images/high/the-majestic-burj-al-arab-hotel-illuminated-at-night-o0jr59cenbmvpf8l.webp"
             alt="Auth background"
             layout="fill"
             objectFit="cover"
@@ -50,16 +49,16 @@ function AuthCarousel() {
           <div className="absolute bottom-20 z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Trong một ngành mà thời gian là điều cốt yếu, dịch vụ
-                trang web bất động sản này đã là cứu cánh cho tôi.&rdquo;
+                &ldquo;Khách sạn tốt là nơi bạn có thể cảm thấy như ở nhà, nhưng
+                với dịch vụ hoàn hảo và không gian đẳng cấp.&rdquo;
               </p>
-              <footer className="text-sm">Anthony James</footer>
+              <footer className="text-sm">Diane von Furstenberg</footer>
             </blockquote>
           </div>
         </div>
         <div>
           <Image
-            src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80"
+            src="https://wallpapers.com/images/high/hotel-background-1p0marlvz82c3lgi.webp"
             alt="Auth background"
             layout="fill"
             objectFit="cover"
@@ -70,13 +69,55 @@ function AuthCarousel() {
           <div className="absolute bottom-20 z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Điều hướng thị trường bất động sản chưa bao giờ dễ dàng
-                hơn nhờ nền tảng đáng kinh ngạc này. Thiết kế thân thiện với
-                người dùng và các tính năng toàn diện của nó cho phép tôi quản
-                lý mọi khía cạnh của hoạt động kinh doanh bất động sản của mình
-                một cách dễ dàng.&rdquo;
+                &ldquo;Mỗi khách sạn có câu chuyện của riêng mình, và việc khám
+                phá những câu chuyện đó là một phần quan trọng của trải nghiệm
+                du lịch.&rdquo;
               </p>
-              <footer className="text-sm">Michael Jordan</footer>
+              <footer className="text-sm">Anthony Bourdain</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div>
+          <Image
+            src="https://wallpapers.com/images/high/hotel-background-9ulv371hiwie85tw.webp"
+            alt="Auth background"
+            layout="fill"
+            objectFit="cover"
+            priority
+            quality={100}
+          />
+          <div className="absolute inset-0 bg-black opacity-10" />
+          <div className="absolute bottom-20 z-20 mt-auto">
+            <blockquote className="space-y-2">
+              <p className="text-lg">
+                &ldquo;Khách sạn tốt là nơi bạn muốn trở lại sau mỗi chuyến đi,
+                vì bạn biết rằng bạn sẽ luôn được đón tiếp một cách ấm áp và
+                chuyên nghiệp.&rdquo;
+              </p>
+              <footer className="text-sm">Conrad Hilton</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div>
+          <Image
+            src="https://wallpapers.com/images/high/hotel-background-bglwmx8t4s1ofh67.webp"
+            alt="Auth background"
+            layout="fill"
+            objectFit="cover"
+            priority
+            quality={100}
+          />
+          <div className="absolute inset-0 bg-black opacity-10" />
+          <div className="absolute bottom-20 z-20 mt-auto">
+            <blockquote className="space-y-2">
+              <p className="text-lg">
+                &ldquo;Đối với tôi, khách sạn không chỉ là một nơi để ngủ qua
+                đêm, mà còn là một bức tranh lớn được tạo ra từ sự kỳ công, sự
+                đam mê và sự chăm sóc đến từ mỗi chi tiết nhỏ nhất. Tôi luôn tin
+                rằng mỗi khách sạn không chỉ là một điểm đến, mà còn là một phần
+                của cuộc hành trình của mỗi du khách.&rdquo;
+              </p>
+              <footer className="text-sm">Steve Wynn</footer>
             </blockquote>
           </div>
         </div>

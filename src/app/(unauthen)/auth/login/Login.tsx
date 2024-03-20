@@ -102,9 +102,9 @@ const Login = ({ className }: { className?: string }) => {
                                 className="opacity-50 cursor-pointer hover:opacity-100"
                               >
                                 {show.showPass ? (
-                                  <AiFillEyeInvisible size={20} />
+                                  <AiFillEyeInvisible size={20} fill="blue" />
                                 ) : (
-                                  <AiFillEye size={20} />
+                                  <AiFillEye size={20} fill="blue" />
                                 )}
                               </div>
                             }
@@ -131,7 +131,7 @@ const Login = ({ className }: { className?: string }) => {
         </Form>
       </div>
 
-      <p className="mt-10 px-8 text-center text-sm text-muted-foreground">
+      <p className="mt-10 px-8 text-center text-sm text-room-blue">
         Chưa có tài khoản?{' '}
         <Link className="font-bold underline text-black" href="/auth/register">
           Đăng ký

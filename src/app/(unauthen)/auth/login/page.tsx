@@ -14,11 +14,12 @@ const LoginPage = async () => {
         <div className="lg:p-8 sm:p-12 ">
           <div className="mx-auto h-full flex w-full flex-col justify-center space-y-6 ">
             <div className="flex flex-col space-y-2 text-center">
-              <h1 className="text-2xl font-semibold tracking-tight">
-                Chào mừng!
+              <h1 className="text-2xl text-blue-800 font-semibold tracking-tight">
+                ĐĂNG NHẬP
               </h1>
-              <p className="text-sm text-muted-foreground">
-                Đăng nhập để kết nối với cộng đồng Hùng Luật Group.
+              <p className="text-sm text-room-blue">
+                Thế giới của bạn chỉ cách một cú nhấp chuột! Đăng nhập và khám
+                phá tiện ích tuyệt vời tại Second Group.
               </p>
             </div>
             <Login />

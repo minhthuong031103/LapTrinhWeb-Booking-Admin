@@ -23,6 +23,7 @@ const InfoUser = () => {
           </div>
           <Avatar
             className="border-2 rounded-full"
+            color="primary"
             size="sm"
             showFallback
             name={user?.name ? user?.name : 'USER'}

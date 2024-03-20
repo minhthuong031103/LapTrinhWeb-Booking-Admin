@@ -221,9 +221,9 @@ const Register = ({
                                   className="opacity-50 cursor-pointer hover:opacity-100"
                                 >
                                   {show.password ? (
-                                    <AiFillEyeInvisible size={20} />
+                                    <AiFillEyeInvisible size={20} fill="blue" />
                                   ) : (
-                                    <AiFillEye size={20} />
+                                    <AiFillEye size={20} fill="blue" />
                                   )}
                                 </div>
                               }
@@ -260,9 +260,9 @@ const Register = ({
                                   className="opacity-50 cursor-pointer hover:opacity-100"
                                 >
                                   {show.confirmPassword ? (
-                                    <AiFillEyeInvisible size={20} />
+                                    <AiFillEyeInvisible size={20} fill="blue" />
                                   ) : (
-                                    <AiFillEye size={20} />
+                                    <AiFillEye size={20} fill="blue" />
                                   )}
                                 </div>
                               }
@@ -277,7 +277,7 @@ const Register = ({
                 <div className="flex flex-col gap-3 ">
                   <Card>
                     <CardBody>
-                      <Chip className="bg-red-400 text-slate-900">
+                      <Chip className="bg-blue-600 text-slate-900">
                         Quy định:
                       </Chip>
                       <p className="text-[12px] ">
@@ -400,7 +400,7 @@ const Register = ({
           </form>
         </Form>
       </div>
-      <p className=" mt-10 text-center text-sm text-muted-foreground">
+      <p className=" mt-10 text-center text-sm text-room-blue">
         Đã có tài khoản?{' '}
         <Link className=" font-bold underline text-black" href="/auth/login">
           Đăng nhập

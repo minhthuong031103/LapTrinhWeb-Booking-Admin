@@ -30,12 +30,12 @@ const LoginPage = async ({ searchParams }: { searchParams: any }) => {
         <div className="lg:p-8 sm:p-12 ">
           <div className="mx-auto h-full flex w-full flex-col justify-center space-y-6 ">
             <div className="flex flex-col space-y-2 text-center">
-              <h1 className="text-2xl font-semibold tracking-tight">
-                Đăng ký tài khoản
+              <h1 className="text-2xl text-blue-800 font-semibold tracking-tight">
+                ĐĂNG KÝ
               </h1>
-              <p className="text-sm text-muted-foreground">
-                Hãy đăng ký tài khoản của bạn dể có thể sử dụng các dịch vụ của
-                Hùng Luật Group.
+              <p className="text-sm text-room-blue">
+                Đặt chân đến một không gian tuyệt vời - Đăng ký và trải nghiệm
+                sự khác biệt tại Second Group.
               </p>
             </div>
             <Register payload={{ email, name }} />
