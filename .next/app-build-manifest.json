@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(home)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(home)/page.js"
+    ],
+    "/(home)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(home)/layout.js"
+    ],
+    "/(unauthen)/auth/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(unauthen)/auth/login/page.js"
+    ],
+    "/(unauthen)/auth/login/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(unauthen)/auth/login/loading.js"
+    ],
+    "/(unauthen)/auth/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(unauthen)/auth/layout.css",
+      "static/chunks/app/(unauthen)/auth/layout.js"
+    ],
+    "/(unauthen)/auth/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(unauthen)/auth/loading.js"
+    ],
+    "/(unauthen)/auth/register/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(unauthen)/auth/register/loading.js"
+    ],
+    "/(unauthen)/auth/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(unauthen)/auth/register/page.css",
+      "static/chunks/app/(unauthen)/auth/register/page.js"
+    ]
+  }
+}
