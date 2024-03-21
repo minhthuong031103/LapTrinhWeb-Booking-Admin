@@ -4,7 +4,7 @@ import Register from './Register';
 import jwt from 'jsonwebtoken';
 
 export const metadata: Metadata = {
-  title: 'Authentication',
+  title: 'Register page',
   description: 'Authentication forms built using the components.',
 };
 const LoginPage = async ({ searchParams }: { searchParams: any }) => {
@@ -34,8 +34,8 @@ const LoginPage = async ({ searchParams }: { searchParams: any }) => {
                 Đăng ký tài khoản
               </h1>
               <p className="text-sm text-muted-foreground">
-                Hãy đăng ký tài khoản của bạn dể có thể sử dụng các dịch vụ của
-                Hùng Luật Group.
+                Hãy đăng ký tài khoản để có thể sử dụng các dịch vụ của chúng
+                tôi.
               </p>
             </div>
             <Register payload={{ email, name }} />

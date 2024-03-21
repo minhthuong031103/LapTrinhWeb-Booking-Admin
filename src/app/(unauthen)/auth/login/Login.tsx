@@ -102,9 +102,12 @@ const Login = ({ className }: { className?: string }) => {
                                 className="opacity-50 cursor-pointer hover:opacity-100"
                               >
                                 {show.showPass ? (
-                                  <AiFillEyeInvisible size={20} />
+                                  <AiFillEyeInvisible
+                                    size={20}
+                                    fill="rgb(2 132 199)"
+                                  />
                                 ) : (
-                                  <AiFillEye size={20} />
+                                  <AiFillEye size={20} fill="rgb(2 132 199)" />
                                 )}
                               </div>
                             }

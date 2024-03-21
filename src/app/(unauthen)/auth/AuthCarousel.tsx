@@ -16,7 +16,7 @@ function AuthCarousel() {
       >
         <div className="h-screen w-full">
           <Image
-            src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1854&q=80"
+            src="https://images.unsplash.com/photo-1606046604972-77cc76aee944?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Auth background"
             layout="fill"
             objectFit="cover"
@@ -27,19 +27,19 @@ function AuthCarousel() {
           <div className="absolute bottom-20 z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Nền tảng này đã cách mạng hóa cách tôi xử lý các giao
-                dịch bất động sản. Với giao diện liền mạch và các tính năng mạnh
-                mẽ, tôi có thể quản lý tài sản, khách hàng và hợp đồng một cách
-                dễ dàng và chuyên nghiệp chưa từng có.&rdquo;
+                &ldquo;Sự hỗ trợ chuyên nghiệp và cách tiếp cận cá nhân hóa từ
+                đội ngũ của bạn đã giúp chúng tôi xây dựng một mạng lưới khách
+                hàng trung thành và mang lại hiệu suất kinh doanh tốt
+                nhất.&rdquo;
               </p>
-              <footer className="text-sm">Sofia Davis</footer>
+              <footer className="text-sm">Richard Branson</footer>
             </blockquote>
           </div>
           <div className="absolute inset-0 bg-black opacity-10" />
         </div>
         <div>
           <Image
-            src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
+            src="https://images.unsplash.com/photo-1622396089527-b40d16c63aba?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Auth background"
             layout="fill"
             objectFit="cover"
@@ -50,8 +50,10 @@ function AuthCarousel() {
           <div className="absolute bottom-20 z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Trong một ngành mà thời gian là điều cốt yếu, dịch vụ
-                trang web bất động sản này đã là cứu cánh cho tôi.&rdquo;
+                &ldquo;Chúng tôi rất may mắn có cơ hội được làm việc với dịch vụ
+                của bạn. Sự chuyên nghiệp, hiệu quả và sự hỗ trợ tận tình từ đội
+                ngũ của bạn đã giúp chúng tôi tối ưu hóa hoạt động kinh doanh
+                của mình và mang lại sự hài lòng cao nhất cho khách hàng&rdquo;
               </p>
               <footer className="text-sm">Anthony James</footer>
             </blockquote>
@@ -59,7 +61,7 @@ function AuthCarousel() {
         </div>
         <div>
           <Image
-            src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80"
+            src="https://images.unsplash.com/photo-1565031491910-e57fac031c41?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Auth background"
             layout="fill"
             objectFit="cover"
@@ -70,11 +72,10 @@ function AuthCarousel() {
           <div className="absolute bottom-20 z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Điều hướng thị trường bất động sản chưa bao giờ dễ dàng
-                hơn nhờ nền tảng đáng kinh ngạc này. Thiết kế thân thiện với
-                người dùng và các tính năng toàn diện của nó cho phép tôi quản
-                lý mọi khía cạnh của hoạt động kinh doanh bất động sản của mình
-                một cách dễ dàng.&rdquo;
+                &ldquo;Đối với chúng tôi, dịch vụ đặt phòng của bạn không chỉ là
+                một công cụ quản lý đơn thuần. Sự linh hoạt trong việc tùy
+                chỉnh, giao diện dễ sử dụng và tính bảo mật cao đã tạo ra một
+                trải nghiệm vô cùng tốt cho cả khách hàng và đối tác.&rdquo;
               </p>
               <footer className="text-sm">Michael Jordan</footer>
             </blockquote>

@@ -16,7 +16,7 @@ const InfoUser = () => {
   return (
     <Dropdown>
       <DropdownTrigger>
-        <Button className="bg-darkGray rounded-sm flex min-w-[200px] h-fit px-2 py-1 items-center justify-end gap-3 cursor-pointer hover:bg-darkGray/50">
+        <Button className="bg-sky-500 rounded-sm flex min-w-[120px] h-fit px-2 py-1 items-center justify-end gap-3 cursor-pointer hover:bg-sky-600">
           <div className="flex flex-col items-end text-white text-xs font-medium">
             <p>{user?.name ? user?.name : 'USER'}</p>
             <p>{user?.roleName ? user?.roleName : 'Moderator'}</p>
@@ -32,10 +32,10 @@ const InfoUser = () => {
       <DropdownMenu aria-label="Static Actions">
         <DropdownItem
           key="logout"
-          endContent={<CiLogout className="text-danger" />}
+          endContent={<CiLogout className="text-sky-500" />}
           onPress={() => onLogout()}
         >
-          <p className="font-medium text-sm text-danger">Đăng xuất</p>
+          <p className="font-medium text-sm text-sky-500">Đăng xuất</p>
         </DropdownItem>
       </DropdownMenu>
     </Dropdown>

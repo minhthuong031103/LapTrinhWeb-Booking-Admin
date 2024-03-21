@@ -166,7 +166,7 @@ const CustomerList = ({ roomId }) => {
                 <div className="flex flex-row items-center gap-x-[8px] ">
                   <div>{CommonSvg.plus()}</div>
                   <div className="text-white mt-[1px] font-medium">
-                    Thêm khách trọ
+                    Thêm khách hàng
                   </div>
                 </div>
               </Button>

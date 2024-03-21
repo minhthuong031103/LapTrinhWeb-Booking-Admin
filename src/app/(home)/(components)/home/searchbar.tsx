@@ -54,12 +54,13 @@ export function SearchBar({
             'bg-white',
             'backdrop-blur-xl',
             'backdrop-saturate-200',
-            'hover:bg-default-200/70',
-            'group-data-[focused=true]:bg-default-200/50',
+            'hover:bg-sky-500',
+            'group-data-[focused=true]:bg-sky-500',
             '!cursor-text',
             'w-[535px]',
             'border-1',
-            'border-borderColor',
+            'placeholder:ring-2',
+            'border-sky-200',
           ],
           base: 'w-fit',
         }}
@@ -69,7 +70,7 @@ export function SearchBar({
         })}
       />
       <Button
-        className="bg-gray text-white px-4 py-2 font-semibold text-base w-[162px]"
+        className="bg-sky-400 text-white px-4 py-2 font-semibold text-base w-[162px]"
         variant="solid"
         onPress={handleSearch}
       >

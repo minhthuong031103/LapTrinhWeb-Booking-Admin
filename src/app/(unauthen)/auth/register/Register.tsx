@@ -113,11 +113,11 @@ const Register = ({
             setMaSoCmnd(res?.data?.[0]?.id);
             setName(res?.data[0]?.name);
           } else {
-            toast.error('Không thể nhận dạng CMND mặt trước');
+            toast.error('Không thể nhận dạng CCCD mặt trước');
           }
         }
       } catch (e) {
-        toast.error('Không thể nhận dạng CMND mặt trước');
+        toast.error('Không thể nhận dạng CCCD mặt trước');
       }
     };
     getOcr();
@@ -128,7 +128,7 @@ const Register = ({
       toast.error('Vui lòng nhập họ tên');
     }
     if (!cmndMatTruoc?.length || !cmndMatSau?.length) {
-      toast.error('Vui lòng tải lên ảnh CMND mặt trước và mặt sau');
+      toast.error('Vui lòng tải lên ảnh CCCD mặt trước và mặt sau');
       return;
     }
     if (!portrait?.length) {
@@ -136,7 +136,7 @@ const Register = ({
       return;
     }
     if (!maSoCmnd) {
-      toast.error('Vui lòng nhập mã số CMND');
+      toast.error('Vui lòng nhập mã số CCCD');
       return;
     }
     if (!isSelected) {
@@ -221,9 +221,15 @@ const Register = ({
                                   className="opacity-50 cursor-pointer hover:opacity-100"
                                 >
                                   {show.password ? (
-                                    <AiFillEyeInvisible size={20} />
+                                    <AiFillEyeInvisible
+                                      size={20}
+                                      fill="rgb(2 132 199)"
+                                    />
                                   ) : (
-                                    <AiFillEye size={20} />
+                                    <AiFillEye
+                                      size={20}
+                                      fill="rgb(2 132 199)"
+                                    />
                                   )}
                                 </div>
                               }
@@ -260,9 +266,15 @@ const Register = ({
                                   className="opacity-50 cursor-pointer hover:opacity-100"
                                 >
                                   {show.confirmPassword ? (
-                                    <AiFillEyeInvisible size={20} />
+                                    <AiFillEyeInvisible
+                                      size={20}
+                                      fill="rgb(2 132 199)"
+                                    />
                                   ) : (
-                                    <AiFillEye size={20} />
+                                    <AiFillEye
+                                      size={20}
+                                      fill="rgb(2 132 199)"
+                                    />
                                   )}
                                 </div>
                               }
@@ -277,7 +289,7 @@ const Register = ({
                 <div className="flex flex-col gap-3 ">
                   <Card>
                     <CardBody>
-                      <Chip className="bg-red-400 text-slate-900">
+                      <Chip className="bg-sky-400 text-slate-900">
                         Quy định:
                       </Chip>
                       <p className="text-[12px] ">
@@ -293,11 +305,11 @@ const Register = ({
                     </CardBody>
                   </Card>
                   <div className="flex flex-col gap-3 ">
-                    <Label>Mã số CMND</Label>
+                    <Label>Số CCCD</Label>
 
                     <Input
                       type="text"
-                      placeholder="Nhập mã số CMND"
+                      placeholder="Nhập mã số CCCD"
                       value={maSoCmnd}
                       onChange={e => setMaSoCmnd(e.target.value)}
                     />
@@ -335,7 +347,7 @@ const Register = ({
                       />
                     </div>
                   </div>
-                  <Label>Ảnh CMND mặt trước</Label>
+                  <Label>Ảnh CCCD mặt trước</Label>
 
                   <div className=" flex justify-center h-36">
                     <Zoom key={2} className={'w-full '}>
@@ -359,7 +371,7 @@ const Register = ({
                   </div>
                 </div>
                 <div className="flex flex-col gap-3 ">
-                  <Label>Ảnh CMND mặt sau</Label>
+                  <Label>Ảnh CCCD mặt sau</Label>
                   <div className=" flex justify-center h-36 ">
                     <Zoom key={2} className={'w-full '}>
                       <img
@@ -387,7 +399,8 @@ const Register = ({
                     onValueChange={setIsSelected}
                   >
                     <p className="text-sm">
-                      Đồng ý với chính sách của văn phòng
+                      Bằng việc đăng ký, bạn đồng ý với Điều khoản dịch vụ &
+                      Chính sách bảo mật của chúng tôi
                     </p>
                   </Checkbox>
                 </div>

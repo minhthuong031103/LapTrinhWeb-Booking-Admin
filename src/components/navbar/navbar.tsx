@@ -16,14 +16,14 @@ export const NavbarComponent = () => {
   return (
     <Navbar
       shouldHideOnScroll
-      className="bg-gray"
+      className="bg-sky-400"
       classNames={{
         wrapper: 'px-4',
       }}
     >
       <NavbarBrand onClick={() => router.push('/')}>
         <p className="font-bold text-white uppercase text-lg cursor-pointer">
-          Hùng Luật Group
+          Booking Hotel for Admin
         </p>
       </NavbarBrand>
 

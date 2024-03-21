@@ -26,12 +26,12 @@ export const SidebarWrapper = () => {
             <CollapseItems
               icon={CommonSvg.manage()}
               items={[
-                { name: 'Quản lý căn hộ', link: '/' },
+                //{ name: 'Quản lý căn hộ', link: '/' },
                 { name: 'Quản lý phòng', link: '/rooms' },
-                { name: 'Danh sách khách trọ', link: '/customers' },
+                { name: 'Danh sách khách hàng', link: '/customers' },
                 { name: 'Quản lý biểu mẫu', link: '/forms' },
               ]}
-              title="Quản lý phòng"
+              title="Quản lý khách sạn"
             />
             <CollapseItems
               icon={CommonSvg.dashboard()}
