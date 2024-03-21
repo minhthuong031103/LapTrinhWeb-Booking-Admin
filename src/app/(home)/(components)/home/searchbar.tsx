@@ -60,6 +60,7 @@ export function SearchBar({
             'w-[535px]',
             'border-1',
             'border-borderColor',
+            'border-sky-500',
           ],
           base: 'w-fit',
         }}
@@ -69,7 +70,7 @@ export function SearchBar({
         })}
       />
       <Button
-        className="bg-gray text-white px-4 py-2 font-semibold text-base w-[162px]"
+        className="bg-sky-500 text-white px-4 py-2 font-semibold text-base w-[162px]"
         variant="solid"
         onPress={handleSearch}
       >

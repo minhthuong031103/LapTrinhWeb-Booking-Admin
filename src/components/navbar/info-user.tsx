@@ -22,8 +22,7 @@ const InfoUser = () => {
             <p>{user?.roleName ? user?.roleName : 'Moderator'}</p>
           </div>
           <Avatar
-            className="border-2 rounded-full"
-            color="primary"
+            className="border-2 rounded-full bg-sky-800 text-white"
             size="sm"
             showFallback
             name={user?.name ? user?.name : 'USER'}
@@ -33,10 +32,10 @@ const InfoUser = () => {
       <DropdownMenu aria-label="Static Actions">
         <DropdownItem
           key="logout"
-          endContent={<CiLogout className="text-danger" />}
+          endContent={<CiLogout className="text-sky-600" />}
           onPress={() => onLogout()}
         >
-          <p className="font-medium text-sm text-danger">Đăng xuất</p>
+          <p className="font-medium text-sm text-sky-600">Đăng xuất</p>
         </DropdownItem>
       </DropdownMenu>
     </Dropdown>

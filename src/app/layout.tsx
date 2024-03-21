@@ -20,7 +20,7 @@ const montserrat = Montserrat({
 });
 
 const metadata: Metadata = {
-  title: 'HUNGLUAT APARTMENT',
+  title: 'SECOND APARTMENT',
   metadataBase: new URL('http://localhost:3000'),
   description: 'Real Estate By UIT',
   openGraph: {

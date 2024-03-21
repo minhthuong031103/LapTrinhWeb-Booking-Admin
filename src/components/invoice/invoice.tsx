@@ -145,7 +145,7 @@ const Invoice = ({ data }) => {
                 textDecoration: 'underline',
               }}
             >
-              HÙNG LUẬT GROUP
+              SECOND GROUP
             </Text>
           </View>
           <View>
