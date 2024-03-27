@@ -254,7 +254,7 @@ const AddPayModal = () => {
         </div>
         <div className="flex w-full flex-row justify-end mt-[60px]">
           <Button
-            className="rounded-[8px] w-[133px] px-4 py-2 bg-blueButton text-white font-semibold text-sm"
+            className="rounded-[8px] w-[133px] px-4 py-2 bg-sky-400 text-white font-semibold text-sm"
             onPress={handleEditPay}
           >
             Lưu

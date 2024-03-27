@@ -21,13 +21,13 @@ export const CollapseItems = ({ icon, items, title }: Props) => {
     <div className="flex gap-4 h-full items-center cursor-pointer">
       <Accordion className="px-0">
         <AccordionItem
-          indicator={<ChevronDownIcon className="text-sky-400" />}
+          indicator={<ChevronDownIcon className="text-sky-500" />}
           classNames={{
             indicator: 'data-[open=true]:-rotate-180',
             trigger:
-              'py-0 min-h-[44px] hover:bg-default-100 rounded-xl active:scale-[0.98] transition-transform pl-2',
+              'py-0 min-h-[44px] hover:bg-sky-100 rounded-xl active:scale-[0.98] transition-transform pl-2',
             title:
-              'px-0 flex text-base gap-2 h-full items-center cursor-pointer',
+              'px-0 flex text-base text-sky-500 gap-2 h-full items-center cursor-pointer',
           }}
           aria-label="Accordion 1"
           title={
@@ -42,18 +42,18 @@ export const CollapseItems = ({ icon, items, title }: Props) => {
               <div
                 key={index}
                 className={cn(
-                  'flex gap-4 items-center px-4 py-2 rounded-sm scale-95 hover:scale-100 transition-all duration-150 ease-in-out cursor-pointer hover:bg-default-100 active:bg-default-200',
+                  'flex gap-4 items-center px-4 py-2 rounded-sm scale-95 hover:scale-100 transition-all duration-150 ease-in-out cursor-pointer hover:bg-sky-50 active:bg-sky-100',
                   `/${pathName}` === item.link &&
-                    'bg-backgroundChosen pointer-events-none',
+                    'bg-sky-100 pointer-events-none',
                 )}
                 onClick={() => router.push(item.link)}
               >
                 {CommonSvg.circle()}
                 <span
                   className={cn(
-                    'w-full flex text-description text-base font-medium hover:font-semibold',
+                    'w-full flex text-sky-500 text-base font-medium hover:font-semibold',
                     `/${pathName}` === item.link &&
-                      'text-textChosen font-semibold',
+                      'text-sky-500 font-semibold',
                   )}
                 >
                   {item.name}

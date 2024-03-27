@@ -141,7 +141,7 @@ const RoomSetting = () => {
           </div>
           <div className="flex justify-end w-full">
             <Button
-              className="rounded-[8px] px-4 py-4 bg-blueButton"
+              className="rounded-[8px] px-4 py-4 bg-sky-400"
               onPress={() => {}}
             >
               <div className="flex flex-row items-center gap-x-[8px] ">

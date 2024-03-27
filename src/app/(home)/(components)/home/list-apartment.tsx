@@ -18,7 +18,7 @@ const ListApartment = ({ apartments, onAction }: ListApartmentProps) => {
         <p className="font-semibold font-lg text-gray">Danh sách căn hộ</p>
         <Button
           onPress={() => onOpen('createApartment', {}, onAction)}
-          className="rounded-[8px] px-4 py-2 bg-blueButton"
+          className="rounded-[8px] px-4 py-2 bg-sky-400"
         >
           <div className="flex flex-row items-center gap-x-[8px] ">
             <div>{CommonSvg.plus()}</div>

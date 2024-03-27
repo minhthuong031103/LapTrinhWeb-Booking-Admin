@@ -167,7 +167,7 @@ export default function DataTable({
           <TableColumn
             key={column.id}
             align={column.id === 'actions' ? 'center' : 'start'}
-            style={{ backgroundColor: '#2458C6', color: 'white' }}
+            style={{ backgroundColor: '#38BDF8', color: 'white' }}
           >
             {column.title}
           </TableColumn>

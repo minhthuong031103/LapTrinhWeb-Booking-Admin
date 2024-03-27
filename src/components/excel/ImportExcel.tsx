@@ -67,7 +67,7 @@ const ImportExcel = ({ getData }) => {
         </div>
       ) : (
         <label htmlFor="upload-file" className="cursor-pointer">
-          <Button className="rounded-[8px] px-4 py-2 bg-blueButton pointer-events-none">
+          <Button className="rounded-[8px] px-4 py-2 bg-sky-400 pointer-events-none">
             <input
               type="file"
               onChange={importExcel}

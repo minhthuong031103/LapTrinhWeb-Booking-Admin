@@ -165,7 +165,7 @@ const RoomDetailPage = () => {
           {buttonRender?.map(item => (
             <div key={item.content}>
               <Button
-                className="rounded-[8px] px-4 py-2 bg-blueButton"
+                className="rounded-[8px] px-4 py-2 bg-sky-400"
                 onPress={item.action}
               >
                 <div className="flex flex-row items-center gap-x-[8px] ">

@@ -47,7 +47,7 @@ const DeleteApartmentModal = () => {
                 Hủy
               </Button>
               <Button
-                className="rounded-[8px] w-[133px] px-4 py-2 bg-blueButton text-white font-semibold text-sm"
+                className="rounded-[8px] w-[133px] px-4 py-2 bg-sky-400 text-white font-semibold text-sm"
                 onPress={handleDeleteApartment}
               >
                 Xóa

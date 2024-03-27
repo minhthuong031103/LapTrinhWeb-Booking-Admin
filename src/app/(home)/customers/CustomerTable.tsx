@@ -197,7 +197,7 @@ const CustomerTable = () => {
             return (
               <Button
                 onPress={() => onOpen(EModalType.CUSTOMER_CREATE, {}, refetch)}
-                className="rounded-[8px] px-4 py-2 bg-blueButton"
+                className="rounded-[8px] px-4 py-2 bg-sky-400"
               >
                 <div className="flex flex-row items-center gap-x-[8px] ">
                   <div>{CommonSvg.plus()}</div>

@@ -87,7 +87,7 @@ const ExportExcel = ({ data, fileName }: ExportExcelProps) => {
       filename={fileName.toUpperCase()}
       headers={headers}
     >
-      <Button className="rounded-[8px] bg-blueButton ml-4">
+      <Button className="rounded-[8px] bg-sky-400 ml-4">
         {isLoading ? (
           <Spinner size="sm" color="white" />
         ) : (
